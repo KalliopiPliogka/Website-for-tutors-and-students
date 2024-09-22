@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Εγγραφή</title>
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Εγγραφή</h2>
+
+        <form method="post" action="registerr.php">
+
+            <label for="name">Όνομα:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Επώνυμο:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Κωδικός Πρόσβασης:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="role">Ρόλος:</label>
+            <select id="role" name="role">
+                <option value="Tutor">Tutor</option>
+                <option value="Student">Student</option>
+            </select>
+
+            <button type="submit">Εγγραφή</button>
+        </form>
+
+        <p>Έχετε ήδη λογαριασμό; <a href="login.php">Σύνδεση</a></p>
+
+    </div>
+
+</body>
+</html>

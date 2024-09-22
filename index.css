@@ -1,0 +1,39 @@
+h1{
+  margin-block-end: 50px;
+  text-align: center;
+  font-weight: 100px;
+  color: black;
+   /* font-weight: 100px;
+    color: black;*/
+}
+
+.btn-group button {
+  text-align: center;
+  margin-top: 20px;
+  border: 5px solid white; /* Green border */
+  color: black; /* White text */
+  padding: 10px ; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 60%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+  
+ /* .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  /*}
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: white;
+  }
+
+
+  .contents{
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+
+
+

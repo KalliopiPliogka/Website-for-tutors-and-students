@@ -1,0 +1,97 @@
+h1 {
+    margin-block-end: 40px;
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+    font-size: 36px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+/* Στυλ για τα κουμπιά */
+.btn-group button {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #4CAF50;
+    padding: 12px;
+    cursor: pointer;
+    width: 80%;
+    display: block;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover εφέ στα κουμπιά */
+.btn-group button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Στυλ για τις ανακοινώσεις και το περιεχόμενο */
+.contents {
+    width: 70%;
+    float: left;
+}
+
+.contents h2 {
+    color: chocolate;
+    margin-top: 20px;
+}
+
+.contents ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.contents ul li {
+    margin-top: 10px;
+}
+
+.contents a {
+    text-decoration: underline;
+    color: blue;
+}
+
+a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: darkred;
+	border: bold;
+    transition: color 0.3s ease;
+}
+
+/* Στυλ για τα links διαγραφή και επεξεργασία */
+.contents h2 a {
+    margin-left: 15px;
+    font-size: 14px;
+    color: darkred;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contents h2 a:hover {
+    color: red;
+}
+
+
+/* Κεντρική διάταξη για τις δύο στήλες */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

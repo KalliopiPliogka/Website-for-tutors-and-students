@@ -1,0 +1,102 @@
+h1 {
+    margin-block-end: 40px;
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+    font-size: 36px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+.btn-group button {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #4CAF50;
+    padding: 12px;
+    cursor: pointer;
+    width: 80%;
+    display: block;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-group button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    color: white;
+}
+
+.contents h2 {
+    margin-top: 20px;
+    color: chocolate;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contents p, .contents ul {
+    margin: 10px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.contents a {
+    color: blue;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.contents a:hover {
+    color: darkblue;
+}
+
+a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: darkred;
+	border: bold;
+    transition: color 0.3s ease;
+}
+
+.contents h2 a {
+    margin-left: 15px;
+    font-size: 14px;
+    color: darkred;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contents h2 a:hover {
+    color: red;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contents {
+    margin-top: 20px;
+    width: 70%;
+    float: left;
+}
+
+.btn-group {
+    width: 30%;
+    float: left;
+}

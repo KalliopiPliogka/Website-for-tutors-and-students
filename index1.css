@@ -1,0 +1,70 @@
+h1 {
+    margin-block-end: 40px;
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+    font-size: 36px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Στυλ για τα κουμπιά */
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .btn-group button {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-group button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  .contents {
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contents p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contents ol {
+    margin-top: 20px;
+  }
+  
+  .contents ol b {
+    color: #333;
+  }
+  
+  img {
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
